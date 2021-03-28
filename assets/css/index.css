@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Circular Std';
+  src: url('~@/assets/font/CircularStd-Book.otf') format('woff');
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --color-primary: #301b6b;
+}
+
+.expand-enter-active,
+.expand-leave-active {
+  transition: height 350ms cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  overflow: hidden;
+}
+
+.animate {
+  @apply transition-all;
+  @apply duration-300;
+  @apply ease-in;
+}
+
+.bg-gradiant {
+  background: linear-gradient(45deg, #fff9f0 0%, #fdf3f6 50%, #f3f8fe 100%);
+}
+.bg-text-gradiant {
+  background: linear-gradient(
+    91.48deg,
+    #307ae9 0%,
+    #3e30e9 21.35%,
+    #b11da2 44.27%,
+    #fd2626 66.67%,
+    #ff7f37 83.85%,
+    #ff9900 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  @apply mx-auto;
+  @apply min-h-screen;
+  @apply px-6;
+}
+
+@md {
+  .container {
+    @apply px-12;
+  }
+}
+.app-button {
+  outline: none !important;
+  @apply bg-primary;
+  @apply rounded-md;
+  @apply py-2;
+  @apply px-3;
+  @apply text-white;
+  @apply text-xs;
+}
+
+
+._m_img_ img {
+    text-align: center;
+    height: 130px;
+    margin-bottom: 10;
+    margin-bottom: 22px;
+    display: inline-block;
+}
+
+.organization {
+      background-image: url('~@/assets/img/Group_backgroud.png');
+}
+
+
+.small_tilte {
+    color: #2d2d2d;
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.textBol {
+    color: #ffffff;
+    font-family: Karla;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+}
+
+.or_main p {
+    color: #2d2d2d;
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 24px;
+    width: 65%;
+}
+
+._m_img_1 img{
+    text-align: center;
+    height: 177px;
+    margin-bottom: 10;
+    margin-bottom: 22px;
+    display: inline-block;
+}
+
+.or_main_in{
+       min-height: inherit!important;
+}
+
+.much_more{
+      padding: 16px!important;
+}
+
+.liv_str_{
+       margin-bottom: 38px;
+}

@@ -1,0 +1,64 @@
+html,
+body {
+  font-family: 'Karla', sans-serif;
+}
+ul.header-menu {
+  width: 100%;
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 1rem;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+  backdrop-filter: brightness(200%) blur(4px);
+}
+
+li.header-item {
+  font-weight: 500;
+  font-size: 20px;
+  float: right;
+}
+
+li.header-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.header-item a:hover {
+  background-color: #111;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  backdrop-filter: brightness(200%) blur(4px);
+  background-color: #365c9da5;
+  color: white;
+  text-align: center;
+}
+
+ul.footer-menu li {
+  display: inline-block;
+  display: inline;
+}
+
+ul.footer-menu li a {
+  font-size: 16px;
+  color: white;
+}
+.immersive-reader-button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px;
+}
+.immersive-reader-button:hover {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+}
